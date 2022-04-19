@@ -6,11 +6,11 @@
 
 int main(void)
 {
-	char x;
+	char l;
 
-	for (x  = ‘z’ ;  x => ‘a’ ; x--)
+	for (l  = ‘z’ ;  l => ‘a’ ; l--)
 	{
-		putchar(x);
+		putchar(l);
 	}									}
 		putchar(‘\n’);
 		return (0);
