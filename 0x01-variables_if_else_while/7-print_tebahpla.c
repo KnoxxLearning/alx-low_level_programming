@@ -4,11 +4,11 @@
 * Return : “Always 0 (Success)"
 */
 
-int main(void);
+int main(void)
 {
 	char l;
 
-	for (l  = 'z' ;  l >= 'a' ; l--)
+	for (l = 'z' ; l >= 'a' ; l--)
 	{
 		putchar(l);
 	}
