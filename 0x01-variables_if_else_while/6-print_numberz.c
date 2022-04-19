@@ -1,17 +1,16 @@
 #include <stdio.h>
 /**
 * main –  “Entry point”
-* Return : “Always 0 (Success)
+* Return : “Always 0 (Success)"
 */
 int main(void)
 {
-			int x;
+	int p;
 
-			for (x  = ‘0’ ;  x <= ‘9’ ; x++)
-			{
-				putchar(x);
-			}
-			putchar(‘\n’);
-			return (0);
+	for (p = '0' ;  p <= '10' ; p++)
+	{
+		printf("%d", p);
+	}
+		putchar(‘\n’);
+	return (0);
 }
-
