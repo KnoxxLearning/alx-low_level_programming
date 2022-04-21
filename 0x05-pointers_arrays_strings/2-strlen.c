@@ -4,6 +4,7 @@
  * _strlen - function used to check the length of a string
  * @s: parameter of char type
  *
+ * Return: length of a string
  */
 int _strlen(char *s)
 {
