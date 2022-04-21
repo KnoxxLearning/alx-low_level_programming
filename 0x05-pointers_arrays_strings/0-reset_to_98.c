@@ -5,8 +5,7 @@
  * Return: Always 0 (Success)
  */
 void reset_to_98(int *n);
-{
-int n;
-*n = 98;
+8 | 	{
 
-}
+	*n = 98;
+	}
