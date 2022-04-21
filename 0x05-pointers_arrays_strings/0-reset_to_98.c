@@ -6,6 +6,6 @@
  */
 void reset_to_98(int *n);
 {
-	function_ptr ("%d", *n);
+	(int "%d", *n);
 	*n = 98;
 }
