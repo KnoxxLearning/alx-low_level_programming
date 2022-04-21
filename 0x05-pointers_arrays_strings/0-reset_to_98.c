@@ -5,7 +5,7 @@
  * Return: Always 0 (Success)
  */
 void reset_to_98(int *n);
-8 | 	{
-
+{
+	function_ptr (*n);
 	*n = 98;
-	}
+}
