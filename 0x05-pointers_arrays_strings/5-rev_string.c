@@ -2,7 +2,7 @@
 
 /**
  * print_rev - fx to print string in reverse
- * @s: the string to print in reverse
+ * @s: the string to in reverse
  *
  * Return: None
  */
