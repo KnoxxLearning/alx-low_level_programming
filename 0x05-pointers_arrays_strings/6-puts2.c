@@ -1,21 +1,21 @@
 #include "main.h"
 /**
- * puts2 - fx to print 1 char out of 2 of a string
- * @str: the string to be printed
+ * puts2 - "function usede to print every other character of a string"
  *
- * Return: None
+ * @str: "the string to be created"
  */
-void put2(char *str)
+void puts2(char *str)
 {
-	int len;
-	char z;
-	for (len = 0; *(str + len) !=0; len++)
+	int x;
+	int len = 0;
+
+	while (str[len] != '\n')
 	{
-		if (len % 2 == 0)
-		{
-			z = *(str + len);
-			_putchar(1);
-		}
+		len++;
+	}
+	for (x = 0; x < len; x += 2)
+	{
+		_putchar(str[x]);
 	}
 	_putchar('\n');
 }
