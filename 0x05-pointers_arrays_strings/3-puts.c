@@ -5,7 +5,7 @@
  *
  * Return: None
  */
-void _puts(char *str);
+void _puts(char *str)
 {
 	while (*str)
 	{
