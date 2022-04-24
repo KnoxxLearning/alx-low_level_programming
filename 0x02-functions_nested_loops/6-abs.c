@@ -2,7 +2,7 @@
 
 /**
 * _abs - "Fx to compute the absolute value of an integer"
-* @x: "The number we'll be computing"
+* @n: "The number we'll be computing"
 *
 * Return: "The absolute value of the number"
 */
