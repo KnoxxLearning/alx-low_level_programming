@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
-* print_last_digit - Fx that prints the last digit of a number
-* @z: The focal number
+* print_last_digit - "Fx that prints the last digit of a number"
+* @z: "The focal number"
+* Return: "Value of the last digit"
 */
 int print_last_digit(int z)
 {
