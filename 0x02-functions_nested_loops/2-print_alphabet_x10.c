@@ -1,19 +1,23 @@
 #include "main.h"
 
 /**
-* main - print the alphabet 10x
+* print_alphabet_x10 - "print the alphabet 10x in lowercase"
 *
-* Return: Always 0
+* Return: Nothing
 */
-void print_alphabet (void)
+void print_alphabet_x10(void)
 {
 	char let;
+	int x;
 
-	for (let = 'a'; let <= 'z'; let++)
+	for (x = 0; x < 10; x++)
 	{
-		_putchar(let);
-	} {
-	_putchar('\n');
+		for (let = 'a'; let <= 'z'; let++)
+		{
+			_putchar(let);
+		}
+
+	       	_putchar('\n');
 	}
 	
 }
