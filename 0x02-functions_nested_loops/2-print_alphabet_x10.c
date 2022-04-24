@@ -5,8 +5,15 @@
 *
 * Return: Always 0
 */
-int main(void)
+void print_alphabet (void)
 {
-	print_alphabet_x10);
-		return (0);
+	char let;
+
+	for (let = 'a'; let <= 'z'; let++)
+	{
+		_putchar(let);
+	} {
+	_putchar('\n');
+	}
+	
 }
