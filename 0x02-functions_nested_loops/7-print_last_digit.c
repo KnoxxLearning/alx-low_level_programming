@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+#include <string.h>
 
 /**
 * print_last_digit - "Fx that prints the last digit of a number"
@@ -7,12 +9,13 @@
 */
 int print_last_digit(int n)
 {
-	int 1Digit = n % 10;
+	int last;
+	last = n % 10;
 
-	if (1Digit < 0)
-	{
-		1Digit *= -1;
-	}
-		_putchar(1Digit + '0');
-		return (1Digit);
+	if (last < 0)
+	last = last * -1;
+	
+	_putchar(last + '0');
+	
+	return (last);
 }
