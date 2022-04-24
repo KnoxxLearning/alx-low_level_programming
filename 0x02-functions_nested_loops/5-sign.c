@@ -8,14 +8,14 @@
 *	0 should the number =0,
 *	-1 should the number be < 0
 */
-int print_sign(int x)
+int print_sign(int n)
 {
-	if (x > 0)
+	if (n > 0)
 	{
 		_putchar('+');
 		return (1);
 	}
-	else if (x == 0)
+	else if (n == 0)
 	{
 		_putchar('0');
 		return (0)'
