@@ -1,9 +1,8 @@
 #include "main.h"
-#include <string.h>
-#include <stdio.h>
+
 /**
  * _strcat - "The function to concatenate two strings"
- * @src: string to be appended
+ * @src: "string to be appended"
  * @dest: "Destination string"
  *
  * Return: "Pointer pointing to a string"
