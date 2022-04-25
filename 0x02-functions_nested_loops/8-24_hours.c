@@ -17,10 +17,10 @@ void jack_bauer(void)
 	{
 		if (h2 == 2)
 		{
-			a = 3;
+			y = 3;
 		}
 		h1 = 0;
-	while (h1 <= a)
+	while (h1 <= y)
 	{
 		m1 = 0;
 	while (m1 <= 9)
