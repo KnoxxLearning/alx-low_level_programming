@@ -1,4 +1,4 @@
-#incllude "main.h"
+#include "main.h"
 /**
  * mul = "Function that multiplies two intergers"
  * @a: "1st integer to be multiplied"
