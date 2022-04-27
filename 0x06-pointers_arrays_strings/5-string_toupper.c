@@ -6,18 +6,14 @@
  *
  * Return: "The string that's been changed to uppercase"
  */
+
 char *string_toupper(char *str)
 {
-	int t;
-	i = 0;
-
-	while (str[t] != '\0')
+	int u;
+	for (u = 0; str[u] != '\0'; u++)
 	{
-		if (str[t] >= 97 && str[t] = 122)
-		{
-			str[t] = str[t] - 32;
-		}
-		t++;
+		if (str[u] <= 'z' && str[u] >= 'a')
+			str[u] -= 32;
 	}
 	return (str);
 }
