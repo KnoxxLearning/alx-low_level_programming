@@ -3,31 +3,40 @@
 /**
  * cap_string - "Function that capitalizes all the words of a string"
  * @str: "We'll capitalize the first letter of this string"
- * 
+ *
  * Return: "The capitalized string"
  */
 char *cap_string(char *str)
 {
-	int i;
-	int j;
-	char c[] = {44, 59, 46,33, 63, 34, 40, 41, 123, 125, 32,10,9};
-	i = 0;
-	while (str[i] != '\0')
+	char sep[] = ",\t;\n; .!?\"(){}";
+	int flag, i, ii;
+
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		if (i == 0 && str[i] >= 97) (str[i] <= 122);
+		flag = 0;
+		if (i == 0)
 		{
-			str[i] = str[i] - 32;
+		flag = 1;
 		}
-		j = 0;
-		while (c[j] != '\0')
+		else
 		{
-		if (c[j] == str[i] && (str[i + 1] >= 97 && str[i + 1] <= 122))
+			for (ii = 0; sep[ii] != '\0'; ii++)
+			{
+				if (str[i - 1] == sep[ii])
+				{
+					flag = 1;
+					break;
+				}
+													}
+		}
+
+		if (flag == 1)
 		{
-			str[i + 1] = str[i + 1] - 32;
+			if (str[i] <= 'z' && str[i] >= 'a')
+			{
+				str[i] -= ('a' - 'A');
+			}
 		}
-		j++;
-		}
-		i++;
 	}
-	return (str);
+return (str);
 }
