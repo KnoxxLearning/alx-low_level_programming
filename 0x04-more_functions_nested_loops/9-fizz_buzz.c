@@ -30,7 +30,7 @@ int main(void)
 		{
 			continue;
 		}
-		printf(' ');
+		printf(" ");
 	}
 	return (0);
 }
