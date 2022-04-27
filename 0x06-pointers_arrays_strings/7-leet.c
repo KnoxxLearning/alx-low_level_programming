@@ -6,7 +6,7 @@
  *
  * Return: "The encoded string"
  */
-char *leet(char *)
+char *leet(char *str)
 {
 	int i, j;
 	char c[] = "aAeEoOtTlL";
@@ -26,5 +26,6 @@ char *leet(char *)
 	}
 	i++;
 	}
+	return (str);
 }
 

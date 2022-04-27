@@ -6,7 +6,7 @@
  *
  * Return: "The string that's been changed to uppercase"
  */
-char *string_toupper(char *)
+char *string_toupper(char *str)
 {
 	int t;
 	i = 0;
