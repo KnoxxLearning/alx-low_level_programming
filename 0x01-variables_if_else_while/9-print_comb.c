@@ -6,12 +6,17 @@
 */
 int main(void)
 {
-	int c;
-
-	for (c = 'z'; c >= 'a'; c--)
+	int c = 0;
+	while (c < 10)
 	{
-		putchar(c);
+		putchar(48 + c);
+		if (c != 9)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+		c++;
 	}
-		putchar('\n');
-		return (0);
+	putchar('\n');
+	return (0);
 }
