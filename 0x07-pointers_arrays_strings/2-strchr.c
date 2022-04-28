@@ -10,30 +10,15 @@
  */
 char *_strchr(char *s, char c)
 {
-	char *ptr;
-	int x;
+		int i;
 
-	for (x = 0; s[x] != '\0'; x++)
-	{
-		if (s[x] == c)
-		{
-		return (s + x); 
-		}
-	}
-	return ('\0');
-}
+			for (i = 0; s[i] >= '\0'  ; i++)
+					{
+								if (s[i] == c)
+											{
+															return (s + i);
+																	}
+									}
 
-int main ()
-{
-
-	char *s = "hello";
-	char *f;
-
-	f = _strchr(s, 'l');
-
-	if (f != NULL)
-	{
-		printf("%s\n", f);
-	}
-	return (0);
+				return ('\0');
 }
